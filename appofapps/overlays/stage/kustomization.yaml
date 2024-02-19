@@ -20,4 +20,4 @@ patches:
     patch: |-
       - op: replace
         path: "/spec/source/path"
-        value: "ngnix/overlays/stage"
+        value: "allapps/ngnix/overlays/stage"
