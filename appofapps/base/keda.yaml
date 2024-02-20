@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    path: common
+    path: allapps/keda/overlays/common
     repoURL: "https://github.com/baranikannan/learn_argocd.git"
-    targetRevision: common
+    targetRevision: main
   destination:
     namespace: common
     server: https://kubernetes.default.svc
