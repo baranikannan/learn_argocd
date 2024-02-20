@@ -10,9 +10,9 @@ spec:
   source:
     path: allapps/keda/overlays/common
     repoURL: "https://github.com/baranikannan/learn_argocd.git"
-    targetRevision: main
+    targetRevision: ""
   destination:
-    namespace: common
+    namespace: ""
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:

@@ -12,7 +12,7 @@ spec:
     repoURL: "https://github.com/baranikannan/learn_argocd.git"
     targetRevision: ""
   destination:
-    namespace: common
+    namespace: ""
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
